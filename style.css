@@ -1,0 +1,132 @@
+/* Created by Ghanwa khan */
+body{
+    text-align: center;
+}
+.main-div{
+     background-color: black;
+    color: white;
+    border-radius: 10px ;
+    border: 3px solid rgb(160, 155, 155);
+}
+.container{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px hsl(0, 9%, 55%);
+    font-style: italic;
+}
+@font-face{
+    font-family:'digital-7';
+    src: url('digital-7/digital-7.ttf');
+   }
+   #p1{
+    font-family:'digital-7';
+   }
+   #min{
+       padding: 10px;
+       font-size: 50px;
+       position: relative;
+
+   }
+   #sec{
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 50px;
+    position: relative;
+
+}
+#milli{
+    padding: 20px;
+    font-size: 50px;
+    position: relative;
+
+}
+/* #blink,#blink1{
+     padding: 10px;
+    font-size: 50px;
+    position: fixed;
+    
+} */
+#start{
+    width: 30%;
+    height: 30%;
+    margin: 2px;
+    border: 2px solid rgb(160, 155, 155);
+    border-radius: 6px;
+    background-color: rgb(101 192 11);
+    /* width: 60px; */
+    font-size: 18px;
+    cursor: pointer;
+}
+#stop{
+ width: 30%;
+    height: 30%;
+    margin: 2px;
+    border: 2px solid rgb(160, 155, 155);
+    /* border: 3px solid black; */
+    border-radius: 6px;
+    background-color: #ff0011;
+    /* width: 60px; */
+    font-size: 18px;
+    cursor: pointer;
+}
+#reset{
+    width: 30%;
+       height: 30%;
+       margin: 2px;
+       border: 2px solid rgb(160, 155, 155);
+       /* border: 3px solid black; */
+       border-radius: 6px;
+       background-color: rgb(230 200 16);
+       /* width: 60px; */
+       font-size: 18px;
+       cursor: pointer;
+   }
+#Lap{
+     width: 30%;
+    height: 30%;
+    margin: 2px;
+    border: 2px solid rgb(160, 155, 155);
+    /* border: 3px solid black; */
+    border-radius: 6px;
+    background-color: rgb(39 66 228);
+    /* width: 60px; */
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#start:hover{       
+    color: white;
+    background-color: #c2c0b5;
+}
+#stop:hover{
+    color: white;
+    background-color: #c2c0b5;
+}
+#Lap:hover{
+    color: white;
+    background-color: #c2c0b5;
+}
+#reset:hover{
+    color: white;
+    background-color: #c2c0b5;
+}
+#lap{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
